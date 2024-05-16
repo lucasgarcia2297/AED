@@ -1,0 +1,42 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+/**
+BurntPancakeSort. Dada una pila de números S, implementar la función 
+	void burnt_pancake_sort(stack<int>&S) la cual ordena la pila solo haciendo
+	operaciones en las cuales se invierte un rango contiguo de elementos
+	en el tope de la pila teniendo en cuenta de que cada elemento debe ser
+	invertido un número par de veces (la cara quemada de cada panqueque 
+	debe quedar hacia abajo).
+**/
+//busca el mayor
+int busca_mayor(stack<int> S, n){
+	
+} 
+//se invierte un rango continuo de elementos (una subpila)
+//
+void burnt_pancake_sort(stack<int> &S){
+	int n = S.size()-1;
+	for(int i=0;;i++) { 
+		busca_mayor(S,)
+	}
+}
+void show_stack(stack<int> &S){
+	while(!S.empty()){
+		cout <<S.top()<<endl;
+		S.pop();
+	}
+}
+int main() {
+	stack<int> S({-3,2,0,1,3,-2,-1});
+	burnt_pancake_sort(S);
+	show_stack(S);
+	return 0;
+}
+
+
+
+
+
+
+
